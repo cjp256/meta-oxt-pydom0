@@ -1,0 +1,12 @@
+diff -ur installer/part2/stages/Functions/defaults installer2/part2/stages/Functions/defaults
+--- installer/part2/stages/Functions/defaults	2015-06-16 15:52:05.221790301 -0400
++++ installer2/part2/stages/Functions/defaults	2015-06-16 15:55:53.709792476 -0400
+@@ -17,7 +17,7 @@
+ # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ #
+ 
+-DOM0_ROOT_LV_SIZE="340M"
++DOM0_ROOT_LV_SIZE="380M"
+ XC_PARTITION_TYPE="bd"
+ MIN_DISK_SECTORS="$((14 * 1024 * 1024 * 1024 / 512))" # 14 GB
+ MIN_PARTITION_SECTORS="$(((14 * 1024 - 8) * 1024 * 1024 / 512))" # 14 GB - 8 MB
